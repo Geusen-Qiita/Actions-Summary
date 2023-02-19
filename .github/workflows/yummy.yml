@@ -9,4 +9,4 @@ jobs:
     steps:
       - name: Job Summary
         run: |
-          echo '美味しいヤミー:exclamation mark::Sparkles::Love you::beaming face with smiling eyes::Thumbs up:感謝:exclamation mark::Raised hands::Sparkles:感謝:exclamation mark::Raised hands::Sparkles:またいっぱい食べたいな:exclamation mark::Meat with bone::face savoring food::Fork and knife::Sparkles:デリシャッ‼️:Praying hands::Sparkles:ｼｬ‼️:Praying hands::Sparkles: ｼｬ‼️:Praying hands::Sparkles: ｼｬ‼️:Praying hands::Sparkles: ｼｬ‼️:Praying hands::Sparkles: ｼｬ‼️:Praying hands::Sparkles: ｼｬｯｯ‼ハッピー:Glowing star:スマイル:exclamation mark::Index finger pointing right::beaming face with smiling eyes::Index finger pointing left:' >> $GITHUB_STEP_SUMMARY
+          echo '美味しいヤミー:exclamation::sparkles::metal::smile::thumbsup:感謝:exclamation::raised_hands::sparkles:感謝:exclamation::raised_hands::sparkles:またいっぱい食べたいな:exclamation::meat_on_bone::yum::fork_and_knife::sparkles:デリシャッ‼️:pray::sparkles:ｼｬ‼️:pray::sparkles: ｼｬ‼️:pray::sparkles: ｼｬ‼️:pray::sparkles: ｼｬ‼️:pray::sparkles: ｼｬ‼️:pray::sparkles: ｼｬｯｯ‼ハッピー:star2:スマイル:exclamation::point_right::smile::point_left:' >> $GITHUB_STEP_SUMMARY
