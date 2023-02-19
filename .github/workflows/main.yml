@@ -13,4 +13,7 @@ jobs:
           python-version: '3.x'
           architecture: 'x64'
       - name: Run Python
+        id: result
         run: python main.py
+      - name: Job Summary
+        run: echo -e '- ### サイコロの出目: ${{ steps.results.outputs.number }}' >> $GITHUB_STEP_SUMMARY
