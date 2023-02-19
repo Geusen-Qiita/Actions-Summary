@@ -13,5 +13,4 @@ jobs:
           python-version: '3.x'
           architecture: 'x64'
       - name: Run Python
-        run: |
-          python main.py
+        run: python main.py
