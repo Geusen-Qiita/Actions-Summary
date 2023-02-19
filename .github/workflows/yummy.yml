@@ -9,4 +9,4 @@ jobs:
     steps:
       - name: Job Summary
         run: |
-          echo '美味しいヤミー:exclamation::sparkles::metal::grin::thumbsup:感謝:exclamation::raised_hands::sparkles:感謝:exclamation::raised_hands::sparkles:またいっぱい食べたいな:exclamation::meat_on_bone::yum::fork_and_knife::sparkles:デリシャッ‼️:pray::sparkles:ｼｬ‼️:pray::sparkles: ｼｬ‼️:pray::sparkles: ｼｬ‼️:pray::sparkles: ｼｬ‼️:pray::sparkles: ｼｬ‼️:pray::sparkles: ｼｬｯｯ‼ハッピー:star2:スマイル:exclamation::point_right::grin::point_left:' >> $GITHUB_STEP_SUMMARY
+          echo '美味しいヤミー❗️✨🤟😁👍感謝❗️🙌✨感謝❗️🙌✨またいっぱい食べたいな❗️🍖😋🍴✨デリシャッ‼️🙏✨ｼｬ‼️🙏✨ ｼｬ‼️🙏✨ ｼｬ‼️🙏✨ ｼｬ‼️🙏✨ ｼｬ‼️🙏✨ ｼｬｯｯ‼ハッピー🌟スマイル❗️👉😁👈' >> $GITHUB_STEP_SUMMARY
