@@ -17,4 +17,4 @@ jobs:
         run: python main.py
       - name: Job Summary
         run: |
-          echo -e '### サイコロの出目: ${{ steps.result.outputs.NUMBER }}' >> $GITHUB_STEP_SUMMARY
+          echo '### サイコロの出目: ${{ steps.result.outputs.NUMBER }}' >> $GITHUB_STEP_SUMMARY
