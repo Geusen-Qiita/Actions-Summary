@@ -7,7 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      # - uses: actions/checkout@v3
       - name: Job Summary
         run: |
-          echo '### test' >> $GITHUB_STEP_SUMMARY
+          echo '美味しいヤミー:exclamation mark::Sparkles::Love you::beaming face with smiling eyes::Thumbs up:感謝:exclamation mark::Raised hands::Sparkles:感謝:exclamation mark::Raised hands::Sparkles:またいっぱい食べたいな:exclamation mark::Meat with bone::face savoring food::Fork and knife::Sparkles:デリシャッ‼️:Praying hands::Sparkles:ｼｬ‼️:Praying hands::Sparkles: ｼｬ‼️:Praying hands::Sparkles: ｼｬ‼️:Praying hands::Sparkles: ｼｬ‼️:Praying hands::Sparkles: ｼｬ‼️:Praying hands::Sparkles: ｼｬｯｯ‼ハッピー:Glowing star:スマイル:exclamation mark::Index finger pointing right::beaming face with smiling eyes::Index finger pointing left:' >> $GITHUB_STEP_SUMMARY
