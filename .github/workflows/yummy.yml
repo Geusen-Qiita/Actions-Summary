@@ -1,0 +1,13 @@
+name: yummy
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      # - uses: actions/checkout@v3
+      - name: Job Summary
+        run: |
+          echo '### test' >> $GITHUB_STEP_SUMMARY
